@@ -1,0 +1,115 @@
+
+body{
+    font-family: "Yrsa", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+#header{
+    padding: 40px;
+  text-align: center;
+  background: #4b4b69;
+  color: white;
+  font-size: 30px;
+}
+h2{
+    font-size: 50px;
+    text-align:center
+}
+#navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+#navbar ul li a:hover{
+    width:80px;
+    background-color:#66666E;
+    padding:auto;
+}
+.photo-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.main-photo {
+  grid-row: span 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+   border: 4px solid #333;
+  box-shadow: 8 4px 8px rgba(0, 0, 0, 0.1)
+  
+}
+.photo-section {
+    padding: 20px;
+}
+
+.photo-text {
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+.photo-2 {
+    display: flex;        /* makes them horizontal */
+    gap: 15px;
+}
+
+.photo-2 img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+p{
+    font-size:25px;
+}
+#text{
+    padding-left: 20px;
+    padding-right:20px;
+}
+footer {
+  background-color: #333333;
+  color: #fff;
+  margin:0;
+  padding:0;
+}
+footer p{
+    float: right;
+    font-size:20px;
+}
